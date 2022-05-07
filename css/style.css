@@ -1,0 +1,63 @@
+/* ---MAIN START--- */
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-style: 16px;
+	line-height: 19px;
+	/* font-family: 'Roboto Slab', serif; */
+}
+.container {
+	max-width: 1220px;
+
+	padding: 0 10px;
+	margin: 0 auto;
+}
+/* ---MAIN END--- */
+
+/* ---HEADER START--- */
+.header__top {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 27px;
+}
+.logo {
+	margin-left: 16px;
+}
+.logo__png {
+}
+.menu {
+}
+.menu__list {
+	display: flex;
+}
+.menu__item + .menu__item {
+	margin-left: 30px;
+}
+.menu__link {
+	text-transform: uppercase;
+
+	color: #001e64;
+
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+}
+.menu__link:hover {
+	border-bottom: 1px solid #001e64;
+}
+.phone {
+	margin-top: 11px;
+	margin-right: 43px;
+}
+.phone__img {
+}
+/* ---HEADER END--- */
