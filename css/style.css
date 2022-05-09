@@ -143,6 +143,11 @@ body {
 	margin-left: 112px;
 	display: inline-block;
 	transform: translateY(-100px);
+	transition: all 0.3s;
+}
+.header__content-btn:hover {
+	color: #001e64;
+	background-color: rgba(255, 255, 255, 1);
 }
 .header__content-box {
 	display: flex;
@@ -206,8 +211,6 @@ body {
 .product__content {
 	width: 600px;
 }
-.product__content-elememt {
-}
 .product__content-box {
 	display: flex;
 	justify-content: space-between;
@@ -252,6 +255,11 @@ body {
 	border: 1px solid #001e64;
 	border-radius: 20px;
 	cursor: pointer;
+	transition: all 0.3s !important;
+}
+.product__content-btn:hover {
+	background: #001e64;
+	color: #ffffff;
 }
 
 /* ---PRODUCT END--- */
@@ -332,3 +340,67 @@ body {
 }
 
 /* ---SEAFOOD END--- */
+
+/* ---CONATCTS START--- */
+.contacts {
+	background: url(../images/contacts-bg.jpg) no-repeat bottom left;
+}
+.contacts__box {
+	margin-left: auto;
+	width: 390px;
+	background-color: #fff;
+	padding: 33px 0 33px 20px;
+}
+.contacts__box-text {
+	width: 195px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #001e64;
+	margin-bottom: 30px;
+}
+.contacts__box-list {
+	list-style: none;
+	font-size: 18px;
+	line-height: 21px;
+}
+.contacts__box-item {
+	margin-top: 30px;
+}
+
+.contacts__box-item span {
+	display: block;
+}
+
+/* ---CONTACTS END--- */
+
+/* ---FOTTER START--- */
+.footer {
+	padding: 25px 0 110px;
+}
+
+.footer__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding: 0 45px 0 23px;
+}
+.footer-social__list {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	padding-bottom: 19px;
+}
+.footer-social__item + .footer-social__item {
+	margin-left: 10px;
+}
+.footer-social__link path {
+	transition: fill 0.3s;
+}
+.footer-social__link:hover path {
+	fill: #001e64;
+}
+.footer .menu {
+	margin-bottom: 35px;
+}
+/* ---FOTTER END--- */
